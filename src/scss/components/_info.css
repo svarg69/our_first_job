@@ -12,9 +12,14 @@
   padding: 20px 20px 20px 30px;
   display: flex;
   justify-content: space-between;
+  gap: 20px;
 }
-.info__block svg {
-  background-color: #808080;
+.info__block__icon {
+  width: 100px;
+  height: 100px;
   transition: fill 0.3s ease-in-out;
-  fill: #F9F9F9;
+  fill: #808080;
+}
+.info__block__icon:hover {
+  color: #476BF0;
 }
