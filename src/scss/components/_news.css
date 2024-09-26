@@ -1,0 +1,25 @@
+.news__top {
+  display: flex;
+  justify-content: space-between;
+}
+.news__swiper {
+  width: 100%;
+}
+.news__swiper-button-next {
+  position: absolute;
+  top: 100px;
+  width: 46px;
+  height: 46px;
+  border: 1.6px solid black;
+  border-radius: 40px;
+}
+.news__swiper-button-next:after {
+  content: "";
+}
+.news__swiper-wrapper {
+  display: flex;
+  gap: 40px;
+}
+.news__slide {
+  width: 23%;
+}

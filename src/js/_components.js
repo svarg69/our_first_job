@@ -1,1 +1,1 @@
-console.log('components');
+import './components/news-slider.js';

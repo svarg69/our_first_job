@@ -1,0 +1,13 @@
+.info_wrapper {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+.info_block {
+  width: clamp(472px, 48%, 736px);
+  background-color: #F9F9F9;
+  border-radius: 20px;
+  padding: 20px 20px 20px 30px;
+}

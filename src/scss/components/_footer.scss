@@ -1,0 +1,39 @@
+.footer {
+    background-color: #F9F9F9;
+    &__wrapper{
+        display: flex;
+        gap: 20px;
+        padding-top: 40px;
+        padding-bottom: 20px;
+    }
+
+    &__btn {
+    
+            display:inline-block;
+            color:#444;
+            border:1px solid #CCC;
+            background:#DDD;
+            box-shadow: 0 0 5px -1px rgba(0,0,0,0.2);
+            cursor:pointer;
+            vertical-align:middle;
+            max-width: 100px;
+            padding: 5px;
+            text-align: center;
+    }
+    &__list-info {
+        
+            columns: 2;
+            -webkit-columns: 2;
+            -moz-columns: 2;
+            column-gap: 20px;
+          
+    }
+    &__copyright{
+        display: flex;
+        justify-content: flex-start;
+        gap: 20px;
+    }
+    &__copyright-link {
+        display: inline-block;
+    }
+}

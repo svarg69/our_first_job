@@ -1,0 +1,37 @@
+.news {
+    &__top {
+        display: flex;
+        justify-content: space-between;
+        
+    }
+
+    &__swiper {
+        width: 100%;
+        &-button {
+            &-next {
+                position: absolute;
+                top: 100px;
+                width: 46px;
+                height: 46px;
+                border: 1.6px solid black;
+                border-radius: 40px;
+                &:after {
+                    content: '';
+                }
+            }
+        }
+        
+        
+    }
+    &__swiper-wrapper {
+        display: flex;
+        gap: 40px;
+       
+    }
+    &__slide{
+        width: 23%;
+    }
+
+
+
+}
